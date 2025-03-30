@@ -1,24 +1,88 @@
-# Compiled class file
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+out/
+
+# Compiled files
+target/
+build/
+classes/
 *.class
 
-# Log file
+# Maven specific
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# TestNG specific
+test-output/
+testng-results.xml
+testng-failed.xml
+
+# Rest Assured logs and reports
+rest-assured-logs/
+allure-results/
+extent-reports/
+reports/
+
+# Log files
 *.log
+log/
+logs/
 
-# BlueJ files
-*.ctxt
+# Test data files that shouldn't be in version control
+**/test-data/temp/
+**/generated-data/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Package files
 *.jar
 *.war
-*.nar
 *.ear
 *.zip
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Debug configurations
+.run/
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Code coverage reports
+jacoco/
+*.exec
+coverage/
+.scannerwork/
+
+# File-based project format
+*.iws
+
+# Temporary files
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
